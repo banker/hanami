@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+<title>
+  Hanami with jQuery | Kyle Banker
+</title>
+
+<!-- Meta Tags -->
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+<meta name="robots" content="index, follow" />
+
+<meta name="description" content="Celebrate Hanami with this simple Tetris implementaion powered by Javascript and the jQuery framework." />
+<meta name="keywords" content="Tetris, Javascript, jQuery" />
+<meta name="author" content="Kyle Banker" />
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="/../img/favicon.ico" />
+
+<!-- CSS -->
+<link rel="stylesheet" href="css/screen.css" media="screen,projection" type="text/css" />
+<link rel="stylesheet" href="css/hanami.css" media="screen,projection" type="text/css" />
+
+<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.timers.js"></script>
+<script type="text/javascript" src="js/hanami.js"></script>
+
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="header">
+  <h1>Hanami</h1>
+  <a href="">About</a>
+</div>
+
+<div id="info">
+  <fieldset>
+      <p class="first">Score: <span id="score">0</span></p>  
+      <p>Lines: <span id="lines">0</span></p>  
+      <p>Level: <span id="displayLevel">1</span></p>
+  </fieldset>
+</div>
+
+<div id="gameField">
+
+  <div id="intro" class="gameMessage" style="display:none;">
+    <h5 id="level"></h5>
+    <div id="instructions" class="instructions">
+      <p>Arrows move left, right, and down.</p>
+      <p>Up-arrow to change shape.</p>
+      <p>Spacebar to DROP!</p>
+    </div>
+  </div>
+
+  <div id="gameOver" class="gameMessage" style="display:none;">
+    <h5>Game Over</h5>
+    </div>
+  </div>
+</div><!-- gameField -->
+
+
+</div><!-- container -->
+
+</body>
+</html>

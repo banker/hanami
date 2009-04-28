@@ -1,0 +1,156 @@
+body {
+  background-image: url("../img/flowers.jpg");
+}
+
+#container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#gameField {
+  width: 242px;
+  height: 482px;
+  padding: 0px;
+  background-color: black; 
+  border: 1px solid white;
+
+  position: absolute;
+  top: 70px;
+}
+
+#info {
+  width:  242px;
+  height: 30px;
+  top: 30px;
+  position: absolute;
+  background-color: black; 
+  border: 1px solid white;
+}
+
+#info fieldset {
+  margin-top: 5px;
+}
+
+
+#info p {
+  color: #C2D8FC;
+  margin: 0 0 0 20px; 
+  padding: 0;
+  display: inline;
+}
+
+#info p.first {
+  margin-left: 5px;
+}
+
+#header {
+  width: 242px;
+  height: 30px;
+  position: absolute;
+  top:  0px;
+}
+
+#header h1 {
+  font-size: 25px;
+  display: inline;
+}
+
+#header a {
+  color: #303030;
+  background-color: #C2D8FC;
+  margin-left: 20px;
+  padding: 1px;
+  position: absolute;
+  left: 130px;
+  top: 4px;
+}
+
+/* Game Messages 
+/* _________________________________________________________________ */ 
+
+.gameMessage {
+  position: absolute;
+  top: 200px;
+  left: 25px;
+  width: 190px;
+  text-align: center;
+  color: gray;
+}
+
+.gameMessage h5 {
+  color: #C2D8FC;
+  font-size: 1.8em;
+}
+
+.gameMessage p {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.instructions {
+  text-align: left;
+  top:  350px;
+}
+
+/* Tetrads 
+/* _________________________________________________________________ */ 
+
+.tetrad {
+  position: absolute;
+}
+
+.block {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border: 1px solid black;
+}
+
+/* I shape
+/* _________________________________________________________________ */ 
+
+.i {
+  background-color: #ABC4EB;
+}
+
+/* L shape
+/* _________________________________________________________________ */ 
+
+.l {
+  background-color: #FDDAF3;
+}
+
+/* J shape
+/* _________________________________________________________________ */ 
+
+.j {
+  background-color: #F5F1B0;
+}
+
+/* O shape
+/* _________________________________________________________________ */ 
+
+.o {
+  background-color: #FF8FC9;
+}
+
+/* S shape
+/* _________________________________________________________________ */ 
+
+.s {
+  background-color: #A2CC41;
+}
+
+/* T shape
+/* _________________________________________________________________ */ 
+
+.t {
+  background-color: #C2D8FC;
+}
+
+/* Z shape
+/* _________________________________________________________________ */ 
+
+.z {
+  background-color: #F5D0DC;
+}
